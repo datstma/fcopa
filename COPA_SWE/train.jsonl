@@ -1,0 +1,321 @@
+{"choice1": "Solen gick upp.", "choice2": "Gräset är klippt.", "idx": 0, "label": 0, "premise": "Min kropp kastade en skugga över gräset.", "question": "cause"}
+{"choice1": "Kvinnan visste att hennes vän hade det svårt.", "choice2": "Kvinnan kände att hennes vän utnyttjade hennes vänlighet.", "idx": 1, "label": 0, "premise": "Kvinnan tolererade sin väns svåra beteende.", "question": "cause"}
+{"choice1": "Kaféet öppnades på en ny plats.", "choice2": "De ville komma ikapp varandra.", "idx": 2, "label": 1, "premise": "Kvinnorna träffades för kaffe.", "question": "cause"}
+{"choice1": "Prognosen förutspådde höga temperaturer.", "choice2": "Hon planerade att springa längs stranden.", "idx": 3, "label": 0, "premise": "Löparen bar shorts.", "question": "cause"}
+{"choice1": "Det var en överraskningsfest.", "choice2": "Det var en födelsedagsfest.", "idx": 4, "label": 0, "premise": "Festens gäster gömde sig bakom soffan.", "question": "cause"}
+{"choice1": "Jag lappade ihop skjortan.", "choice2": "Jag blekte skjortan.", "idx": 5, "label": 1, "premise": "Fläcken kom ut ur skjortan.", "question": "cause"}
+{"choice1": "Han hälsade på kassören.", "choice2": "Han använde en kupong.", "idx": 6, "label": 1, "premise": "Han fick rabatt på sina matvaror.", "question": "cause"}
+{"choice1": "Patienten väckte åtal mot läkaren.", "choice2": "Patienten lämnade ut konfidentiell information till läkaren.", "idx": 7, "label": 0, "premise": "Läkaren feldiagnostiserade patienten.", "question": "effect"}
+{"choice1": "Försäljningspartnern underladdade kunden.", "choice2": "Försäljningspartnern agerade oförskämt mot kunden.", "idx": 8, "label": 1, "premise": "Kunden lämnade in ett klagomål till butikschefen.", "question": "cause"}
+{"choice1": "Kvinnans dotter kom för att städa sitt hus.", "choice2": "Kvinnans dotter flyttade in för att ta hand om henne.", "idx": 9, "label": 1, "premise": "Den äldre kvinnan fick en stroke.", "question": "effect"}
+{"choice1": "Folk åkte skridskor på dammen.", "choice2": "Folk förde båtar till dammen.", "idx": 10, "label": 0, "premise": "Dammen frös över för vintern.", "question": "effect"}
+{"choice1": "Hon skickades tillbaka till fängelset.", "choice2": "Hon stal pengar från en kyrka.", "idx": 11, "label": 0, "premise": "Förbrytaren bröt mot villkorlig frigivning.", "question": "effect"}
+{"choice1": "Min vän vaknade.", "choice2": "Min vän snarkade.", "idx": 12, "label": 0, "premise": "Jag hällde vatten på min sovande vän.", "question": "effect"}
+{"choice1": "Jag hällde blekmedel på den.", "choice2": "Jag la den i torktumlaren.", "idx": 13, "label": 1, "premise": "Skjortan krympte.", "question": "cause"}
+{"choice1": "Snöflingor började falla från himlen.", "choice2": "Månen blev synlig i himlen.", "idx": 14, "label": 1, "premise": "Det blev mörkt där ute.", "question": "effect"}
+{"choice1": "Den som ringde sa adjö till mig.", "choice2": "Den som ringde identifierade sig själv för mig.", "idx": 15, "label": 0, "premise": "Jag la på luren.", "question": "cause"}
+{"choice1": "Kvinnan polerade ringen.", "choice2": "Ringen gick ner i avloppet.", "idx": 16, "label": 1, "premise": "Kvinnans ring gled av i duschen.", "question": "effect"}
+{"choice1": "Han öppnade dörren för henne.", "choice2": "Han frågade om hon gillade sushi.", "idx": 17, "label": 0, "premise": "Kvinnans dejt ville se ut som en gentleman.", "question": "effect"}
+{"choice1": "En kanal byggdes.", "choice2": "En översvämning inträffade.", "idx": 18, "label": 0, "premise": "Gräsmarken behövde bevattning.", "question": "effect"}
+{"choice1": "Hon var säker på att hon hade influensa.", "choice2": "Hon var orolig att hon skulle få influensan.", "idx": 19, "label": 0, "premise": "Värden ställde in festen.", "question": "cause"}
+{"choice1": "Hon var attraherad av honom.", "choice2": "Hon blev avstött av honom.", "idx": 20, "label": 0, "premise": "Kvinnan gav mannen sitt telefonnummer.", "question": "cause"}
+{"choice1": "Hennes mamma la ner henne för en tupplur.", "choice2": "Hennes mamma lagade håret till grissvansar.", "idx": 21, "label": 0, "premise": "Spädbarnet blev grinigt.", "question": "effect"}
+{"choice1": "Han undvek att utsättas för sjukdomen.", "choice2": "Han fick vaccinet mot sjukdomen.", "idx": 22, "label": 1, "premise": "Barnet blev immunt mot sjukdomen.", "question": "cause"}
+{"choice1": "Juicen blev till vin.", "choice2": "Juicen försvann.", "idx": 23, "label": 0, "premise": "Druvsaften jäst.", "question": "effect"}
+{"choice1": "Vännerna såg öga mot öga.", "choice2": "Vännerna delade hår.", "idx": 24, "label": 1, "premise": "Vännernas debatt drog ut på tiden.", "question": "cause"}
+{"choice1": "Han hade en hatt.", "choice2": "Han fick skägg.", "idx": 25, "label": 0, "premise": "Han hatade sin nya frisyr.", "question": "effect"}
+{"choice1": "Flyktingen föll till marken.", "choice2": "Flyktingen tappade sitt vapen.", "idx": 26, "label": 1, "premise": "Polisen riktade sina vapen mot rymlingen.", "question": "effect"}
+{"choice1": "Sköterskan testade hans reflexer.", "choice2": "Sköterskan gav honom ett dropp.", "idx": 27, "label": 1, "premise": "Patienten var uttorkad.", "question": "effect"}
+{"choice1": "Hon fullbordade pusslet.", "choice2": "Hon tog isär pusslet.", "idx": 28, "label": 0, "premise": "Flickan hittade pusselbiten.", "question": "effect"}
+{"choice1": "Jag gjorde fotokopior av dem.", "choice2": "Jag satte dem i alfabetisk ordning.", "idx": 29, "label": 1, "premise": "Tidningarna var oorganiserade.", "question": "effect"}
+{"choice1": "Hon köpte en yacht.", "choice2": "Hon gick med i en kyrka.", "idx": 30, "label": 0, "premise": "Kvinnan vann lotteriet.", "question": "effect"}
+{"choice1": "Tråden lindad runt nålen.", "choice2": "Tråden gick igenom tyget.", "idx": 31, "label": 1, "premise": "Sömmerskan tryckte in den gängade nålen i tyget.", "question": "effect"}
+{"choice1": "Hon bestämde sig för att stämma sin arbetsgivare.", "choice2": "Hon bestämde sig för att ställa upp i valet.", "idx": 32, "label": 0, "premise": "Kvinnan anlitade en advokat.", "question": "cause"}
+{"choice1": "Jag höll för öronen.", "choice2": "Jag sjöng med till den.", "idx": 33, "label": 1, "premise": "Min favoritlåt kom på radion.", "question": "effect"}
+{"choice1": "Sökanden underlät att göra en bakgrundskontroll.", "choice2": "Den sökande hade erfarenhet av arbetet.", "idx": 34, "label": 0, "premise": "Den verkställande direktören beslutade att inte anställa den sökande.", "question": "cause"}
+{"choice1": "Han blev blind.", "choice2": "Han tog på sig glasögon.", "idx": 35, "label": 0, "premise": "Mannens öga blev infekterat.", "question": "effect"}
+{"choice1": "Den migrerade för vintern.", "choice2": "Den skadade sin flygel.", "idx": 36, "label": 1, "premise": "Fågeln kunde inte flyga.", "question": "cause"}
+{"choice1": "Hon lindade in sig i en handduk.", "choice2": "Hon hällde upp lite lemonad.", "idx": 37, "label": 0, "premise": "Kvinnan skälvde när hon tog sig ur poolen.", "question": "effect"}
+{"choice1": "Patienten blödde.", "choice2": "Patienten spände upp sig.", "idx": 38, "label": 1, "premise": "Sköterskan förberedde nålen för patientens injektion.", "question": "effect"}
+{"choice1": "Det var färskt.", "choice2": "Det var gammalt.", "idx": 39, "label": 1, "premise": "Mannen kastade ut brödet.", "question": "cause"}
+{"choice1": "De bråkade om kuddar.", "choice2": "De hoppade på sängen.", "idx": 40, "label": 0, "premise": "Barnen välte en lampa.", "question": "cause"}
+{"choice1": "De byggde ett staket runt sin egendom.", "choice2": "De stod värd för en grillfest på sin bakgård.", "idx": 41, "label": 0, "premise": "Husägarna ogillade sina nyfikna grannar.", "question": "effect"}
+{"choice1": "Gymmet är stängt.", "choice2": "Hennes muskler blev trötta.", "idx": 42, "label": 1, "premise": "Kroppsbyggaren lyfte vikter.", "question": "effect"}
+{"choice1": "Ingredienserna smälte.", "choice2": "Ingredienserna blandades ihop.", "idx": 43, "label": 1, "premise": "Kocken rörde om ingredienserna i skålen.", "question": "effect"}
+{"choice1": "Transaktionen ogiltigförklarades.", "choice2": "Transaktionen blev officiell.", "idx": 44, "label": 1, "premise": "Mannen undertecknade dokumentet.", "question": "effect"}
+{"choice1": "Hon donerade blod.", "choice2": "Hon skrev en dikt.", "idx": 45, "label": 0, "premise": "Kvinnan kände sig tvungen att hjälpa någon i nöd.", "question": "effect"}
+{"choice1": "Hon renoverade sitt kök.", "choice2": "Hon adopterade en katt.", "idx": 46, "label": 1, "premise": "Kvinnan kände sig ensam.", "question": "effect"}
+{"choice1": "Träet blev mjukt.", "choice2": "Träet blev klibbigt.", "idx": 47, "label": 0, "premise": "Jag gnuggade sandpapper på träet.", "question": "effect"}
+{"choice1": "Bandet signerade autografer.", "choice2": "Bandet dök upp igen på scenen.", "idx": 48, "label": 1, "premise": "Publiken gav bandet en stående ovation.", "question": "effect"}
+{"choice1": "Jag glömde äta frukost.", "choice2": "Jag var full efter frukosten.", "idx": 49, "label": 0, "premise": "Min mage morrade.", "question": "cause"}
+{"choice1": "Deras båt drev till stranden.", "choice2": "Deras båt räddades.", "idx": 50, "label": 1, "premise": "Båtmännen satte igång ett bloss.", "question": "effect"}
+{"choice1": "Han gick in i huset.", "choice2": "Han lossade slipsen.", "idx": 51, "label": 0, "premise": "Mannen tog av sig rocken.", "question": "cause"}
+{"choice1": "Hunden tuggade på ett ben.", "choice2": "Hunden skadade hans tass.", "idx": 52, "label": 1, "premise": "Familjen tog sin hund till veterinären.", "question": "cause"}
+{"choice1": "Min vän förklarade reglerna för mig.", "choice2": "Min vän har fel regler.", "idx": 53, "label": 0, "premise": "Jag lärde mig spela brädspel.", "question": "cause"}
+{"choice1": "Han ville slappna av.", "choice2": "Han kände sig nöjd.", "idx": 54, "label": 0, "premise": "Mannen åkte bort över helgen.", "question": "cause"}
+{"choice1": "Ägaren hjälpte kunderna.", "choice2": "Butiken höll på att renoveras.", "idx": 55, "label": 1, "premise": "Butiken var stängd.", "question": "cause"}
+{"choice1": "Stationen spelade rockmusik.", "choice2": "Stationen var på väg in med statisk.", "idx": 56, "label": 1, "premise": "Pojken ställde in radion.", "question": "cause"}
+{"choice1": "Polisen ringde efter förstärkning.", "choice2": "Den misstänkte motsatte sig gripandet.", "idx": 57, "label": 1, "premise": "Polisen satte handfängsel på den misstänkte.", "question": "cause"}
+{"choice1": "Offret kämpade för att komma ihåg detaljer om brottet.", "choice2": "De undanhöll offrets namn från allmänheten.", "idx": 58, "label": 1, "premise": "Myndigheterna lovade att skydda brottsoffrets identitet.", "question": "effect"}
+{"choice1": "Han köpte dem på rea.", "choice2": "Han gick ner i vikt.", "idx": 59, "label": 1, "premise": "Mannens kläder passar löst.", "question": "cause"}
+{"choice1": "Jag tog mig extra tid att göra mig klar.", "choice2": "Klockan visade fel tid.", "idx": 60, "label": 1, "premise": "Klockan slutade ticka.", "question": "effect"}
+{"choice1": "Hans familj uppmanade honom att sluta röka.", "choice2": "Han var beroende av nikotin.", "idx": 61, "label": 1, "premise": "Mannen ville ha en cigarett.", "question": "cause"}
+{"choice1": "Hans hund hoppade upp på honom.", "choice2": "Hans hund sprang över för att äta maten.", "idx": 62, "label": 1, "premise": "Mannen tappade mat på golvet.", "question": "effect"}
+{"choice1": "Flickan spred ett rykte om sin vän.", "choice2": "Flickan berättade en hemlighet för sin vän.", "idx": 63, "label": 0, "premise": "Flickan var arg på sin vän.", "question": "effect"}
+{"choice1": "Polisen lade ner fallet.", "choice2": "Flyktingen förblev på fri fot.", "idx": 64, "label": 1, "premise": "Flyktingen gömde sig för polisen.", "question": "effect"}
+{"choice1": "Hon kom från en rik familj.", "choice2": "Hon flyttade från ett annat land.", "idx": 65, "label": 1, "premise": "Kvinnan talade med en utländsk accent.", "question": "cause"}
+{"choice1": "Han åt en peppar.", "choice2": "Han blåste ut ljuset.", "idx": 66, "label": 0, "premise": "Pojkens mun stucken.", "question": "cause"}
+{"choice1": "Jag slet ut nästa sida.", "choice2": "Jag vände mig till nästa sida.", "idx": 67, "label": 1, "premise": "Jag gjorde klart en sida av boken.", "question": "effect"}
+{"choice1": "Det fanns många tomma bord.", "choice2": "Restaurangen var fullsatt.", "idx": 68, "label": 1, "premise": "Servicen på restaurangen var långsam.", "question": "cause"}
+{"choice1": "Jag joggade på löpbandet.", "choice2": "Jag åt födelsedagstårta.", "idx": 69, "label": 1, "premise": "Jag har ont i magen.", "question": "cause"}
+{"choice1": "Jag har ätit färdigt.", "choice2": "Jag hoppade över middagen.", "idx": 70, "label": 0, "premise": "Jag la min tallrik i handfatet.", "question": "cause"}
+{"choice1": "Han läste klart den.", "choice2": "Det provocerade honom att tänka.", "idx": 71, "label": 0, "premise": "Mannen stängde boken.", "question": "cause"}
+{"choice1": "Hans farfar var döv.", "choice2": "Hans farfar var blind.", "idx": 72, "label": 1, "premise": "Pojken läste romanen högt för sin farfar.", "question": "cause"}
+{"choice1": "Fotografen knäppte snabbt bilden på barnet.", "choice2": "Fotografen ändrade snabbt barnets pos.", "idx": 73, "label": 0, "premise": "Fotografen fick barnet att le.", "question": "effect"}
+{"choice1": "Glaset var fläckat.", "choice2": "Persiennerna var öppna.", "idx": 74, "label": 0, "premise": "Fönstret var ogenomskinligt.", "question": "cause"}
+{"choice1": "Kakeln var våt.", "choice2": "Kakeln var sprucken.", "idx": 75, "label": 0, "premise": "Jag halkade på golvet.", "question": "cause"}
+{"choice1": "Hans stubb växte.", "choice2": "Hans stubb försvann.", "idx": 76, "label": 1, "premise": "Mannen gled rakhyveln över hakan.", "question": "effect"}
+{"choice1": "Hon tog sömntabletter.", "choice2": "Hennes man snarkade.", "idx": 77, "label": 1, "premise": "Kvinnan vaknade.", "question": "cause"}
+{"choice1": "Hon kom ihåg att ta sin medicin.", "choice2": "Hon blev påmind om sin barndom.", "idx": 78, "label": 1, "premise": "Kvinnan kände en behaglig lukt.", "question": "effect"}
+{"choice1": "Det var trångt.", "choice2": "Klockan var tre på morgonen.", "idx": 79, "label": 1, "premise": "Baren är stängd.", "question": "cause"}
+{"choice1": "Han parkerade.", "choice2": "Han körde för fort.", "idx": 80, "label": 1, "premise": "Föraren blev stoppad av polisen.", "question": "cause"}
+{"choice1": "Det saktade ner till ett stopp.", "choice2": "Den svängde fram och tillbaka.", "idx": 81, "label": 1, "premise": "Jag knuffade pendeln.", "question": "effect"}
+{"choice1": "Stacken tornade upp sig över pojkens huvud.", "choice2": "Blocken utspridda över mattan.", "idx": 82, "label": 1, "premise": "Barnet sparkade på högen med block.", "question": "effect"}
+{"choice1": "Han förlitade sig på sina föräldrar.", "choice2": "Hans föräldrar misshandlade honom.", "idx": 83, "label": 1, "premise": "Tonåringen rymde hemifrån.", "question": "cause"}
+{"choice1": "Intervjuaren ställde svåra frågor.", "choice2": "Jag förutsåg intervjuarens frågor.", "idx": 84, "label": 0, "premise": "Jag sabbade jobbintervjun.", "question": "cause"}
+{"choice1": "Han insåg att han hade glömt något.", "choice2": "Han insåg att han var tidig.", "idx": 85, "label": 1, "premise": "Mannen tittade på sin klocka.", "question": "effect"}
+{"choice1": "Jag spillde juice på golvet.", "choice2": "Golvet var permanent fläckat.", "idx": 86, "label": 0, "premise": "Jag doppade golvet med en pappershandduk.", "question": "cause"}
+{"choice1": "Beskyddaren var ensam.", "choice2": "Beskyddaren var full.", "idx": 87, "label": 1, "premise": "Bartendern vägrade att tjäna beskyddaren.", "question": "cause"}
+{"choice1": "Jag lyssnade på professorn.", "choice2": "Jag ställde frågorna till professorn.", "idx": 88, "label": 1, "premise": "Jag blev förvirrad av professorns föreläsning.", "question": "effect"}
+{"choice1": "Kvinnan tyckte synd om honom.", "choice2": "Kvinnan skojade med honom.", "idx": 89, "label": 0, "premise": "Mannen bad om förlåtelse.", "question": "effect"}
+{"choice1": "Paketet utlöste min nyfikenhet.", "choice2": "Jag tog paketet till postkontoret.", "idx": 90, "label": 0, "premise": "Jag fick ett paket i posten.", "question": "effect"}
+{"choice1": "Vågen förde henne till stranden.", "choice2": "Hon paddlade sin bräda ut i havet.", "idx": 91, "label": 0, "premise": "Surfaren fångade vågen.", "question": "effect"}
+{"choice1": "Talaren gratulerade sin motståndare.", "choice2": "Talaren vann debatten.", "idx": 92, "label": 1, "premise": "Talaren avväpnade hennes debattmotståndare.", "question": "effect"}
+{"choice1": "Frågan gjorde mig obekväm.", "choice2": "Jag ville vara ärlig.", "idx": 93, "label": 0, "premise": "Jag undvek att ge ett rakt svar på frågan.", "question": "cause"}
+{"choice1": "Han pratade med läraren.", "choice2": "Läraren betygsatte sina läxor.", "idx": 94, "label": 0, "premise": "Studenten fick kvarsittning.", "question": "cause"}
+{"choice1": "Han tänkte bjuda ut flickan.", "choice2": "Hans handflator var kalla och svettiga.", "idx": 95, "label": 0, "premise": "Pojkens händer skakade.", "question": "cause"}
+{"choice1": "Spelet slutade oavgjort.", "choice2": "Spelaren gjorde mål.", "idx": 96, "label": 1, "premise": "Fansen på stadion jublade.", "question": "cause"}
+{"choice1": "Jag konfronterade honom.", "choice2": "Jag log mot honom.", "idx": 97, "label": 0, "premise": "En man skar sig framför mig i den långa kön.", "question": "effect"}
+{"choice1": "Tåget färdades genom en tunnel.", "choice2": "Tåget körde av spåren.", "idx": 98, "label": 0, "premise": "Insidan av tåget blev mörk.", "question": "cause"}
+{"choice1": "Han kände vördnad.", "choice2": "Han kollapsade.", "idx": 99, "label": 0, "premise": "Mannen begrundade målningen.", "question": "effect"}
+{"choice1": "Den åt en fisk.", "choice2": "Den upptäckte ett rovdjur.", "idx": 100, "label": 1, "premise": "Sköldpaddan gömde sig i sitt skal.", "question": "cause"}
+{"choice1": "Den misstänkte frikändes.", "choice2": "Den misstänkte dömdes.", "idx": 101, "label": 1, "premise": "Flera vittnen vittnade mot den misstänkte.", "question": "effect"}
+{"choice1": "Deras yngsta barn började gå på förskola.", "choice2": "De planerade att fira sin bröllopsdag.", "idx": 102, "label": 1, "premise": "Föräldrarna lämnade sina barn med en barnvakt.", "question": "cause"}
+{"choice1": "Chauffören pratade hela vägen.", "choice2": "Föraren svängde fel.", "idx": 103, "label": 1, "premise": "Resan tog lång tid.", "question": "cause"}
+{"choice1": "Konsumenterna kände igen produkten.", "choice2": "Produkten blev föråldrad.", "idx": 104, "label": 0, "premise": "Produkten blev kraftigt annonserad.", "question": "effect"}
+{"choice1": "Lasso tog tag i hästen.", "choice2": "Hästen trampade in i ladan.", "idx": 105, "label": 0, "premise": "Coagirln kastade sin lasso mot hästen.", "question": "effect"}
+{"choice1": "Kvinnan blev lättad.", "choice2": "Kvinnan bad om ursäkt.", "idx": 106, "label": 0, "premise": "Gruppen förbisåg kvinnans faux pas.", "question": "effect"}
+{"choice1": "Hon slog upp termen i ordboken.", "choice2": "Hon kastade läroboken över rummet.", "idx": 107, "label": 0, "premise": "Flickan stötte på ett okänt ord i sin lärobok.", "question": "effect"}
+{"choice1": "Hans familj erbjöd honom ekonomiskt stöd.", "choice2": "Hans familj avbröt kontakten med honom.", "idx": 108, "label": 0, "premise": "Mannen blev handikappad.", "question": "effect"}
+{"choice1": "Hunden avgav en vidrig lukt.", "choice2": "Skunken strövade omkring i skogen.", "idx": 109, "label": 0, "premise": "Skunken sprutade hunden.", "question": "effect"}
+{"choice1": "Min klåda försvann.", "choice2": "Mitt ärr bleknade.", "idx": 110, "label": 0, "premise": "Jag kliade mig i huden.", "question": "effect"}
+{"choice1": "Hon blev glömsk.", "choice2": "Hon skickade en present till mig.", "idx": 111, "label": 1, "premise": "Jag skrev ett tackbrev till min mormor.", "question": "cause"}
+{"choice1": "Husägarna sov.", "choice2": "Säkerhetslarmet gick.", "idx": 112, "label": 1, "premise": "En inbrottstjuv bröt sig in i huset.", "question": "effect"}
+{"choice1": "Flickan tände på fläkten.", "choice2": "Flickan sminkade sig.", "idx": 113, "label": 0, "premise": "Spegeln i badrummet dimmade upp.", "question": "effect"}
+{"choice1": "Mannen sträckte sig i fickan.", "choice2": "Mannen visade ett vapen.", "idx": 114, "label": 1, "premise": "Säkerhetsvakten tog itu med mannen.", "question": "cause"}
+{"choice1": "Bilen stannade.", "choice2": "Bilen svängde.", "idx": 115, "label": 1, "premise": "Föraren roterade ratten.", "question": "effect"}
+{"choice1": "De var underlägsna.", "choice2": "De stormade staden.", "idx": 116, "label": 0, "premise": "Armén gav upp striden.", "question": "cause"}
+{"choice1": "Det var rent.", "choice2": "Det var rynkigt.", "idx": 117, "label": 1, "premise": "Jag strök min skjorta.", "question": "cause"}
+{"choice1": "Hon tappade balansen.", "choice2": "Det gjorde hon faktiskt.", "idx": 118, "label": 0, "premise": "Flickan kände sig yr.", "question": "effect"}
+{"choice1": "Han gick genom en korsning.", "choice2": "Han lade märke till ett strandsatt fordon.", "idx": 119, "label": 1, "premise": "Föraren stannade till vid vägkanten.", "question": "cause"}
+{"choice1": "Patientens symptom försvann.", "choice2": "Patientens familj besökte honom.", "idx": 120, "label": 0, "premise": "Sjukhuset skickade hem patienten.", "question": "cause"}
+{"choice1": "Filmen började.", "choice2": "Vi satte oss ner.", "idx": 121, "label": 1, "premise": "Vi hittade tomma platser på teatern.", "question": "effect"}
+{"choice1": "De lärde henne cykla.", "choice2": "De uppmuntrade henne att bli konstnär.", "idx": 122, "label": 1, "premise": "Föräldrarna kände igen sin dotters kreativitet.", "question": "effect"}
+{"choice1": "Burken blev varm.", "choice2": "Locket lossnade.", "idx": 123, "label": 1, "premise": "Pojken vände locket på burken.", "question": "effect"}
+{"choice1": "Hon började på college.", "choice2": "Hon tog examen från college.", "idx": 124, "label": 1, "premise": "Kvinnan fick ett diplom.", "question": "cause"}
+{"choice1": "Jag hoppade över pölen.", "choice2": "Jag spelade i pölen.", "idx": 125, "label": 0, "premise": "Jag stötte på en pöl på trottoaren.", "question": "effect"}
+{"choice1": "Brandlarmet rasade.", "choice2": "Kvinnan luktade rök.", "idx": 126, "label": 0, "premise": "Kvinnan höll för öronen.", "question": "cause"}
+{"choice1": "Hon grävde uråldriga artefakter.", "choice2": "Hon läste om sajtens historia.", "idx": 127, "label": 0, "premise": "Arkeologen grävde upp platsen.", "question": "effect"}
+{"choice1": "Han berättade ett rasistiskt skämt.", "choice2": "Han roade publiken.", "idx": 128, "label": 0, "premise": "Publiken buade komikern från scenen.", "question": "cause"}
+{"choice1": "Bollen rullade över marken.", "choice2": "Bollen träffade taket.", "idx": 129, "label": 1, "premise": "Jag kastade bollen uppåt.", "question": "effect"}
+{"choice1": "Jag torkade munnen.", "choice2": "Jag borstade tänderna.", "idx": 130, "label": 1, "premise": "Min andedräkt luktade vitlök.", "question": "effect"}
+{"choice1": "Han frågade efter vägen.", "choice2": "Han ritade en karta.", "idx": 131, "label": 0, "premise": "Mannen var förlorad.", "question": "effect"}
+{"choice1": "Barnet rapade.", "choice2": "-Modern skämdes.", "idx": 132, "label": 1, "premise": "Barnet drog i mammans hår.", "question": "effect"}
+{"choice1": "Bilen accelererade.", "choice2": "Bildörren öppnades.", "idx": 133, "label": 0, "premise": "Jag tryckte på gaspedalen.", "question": "effect"}
+{"choice1": "Jag parkerade olagligt.", "choice2": "Jag hoppade på batteriet.", "idx": 134, "label": 0, "premise": "Min bil blev bogserad.", "question": "cause"}
+{"choice1": "Hennes medbrottsling greps.", "choice2": "Hon förstörde bevisen.", "idx": 135, "label": 1, "premise": "Kvinnan kom undan med brottet.", "question": "cause"}
+{"choice1": "Jag torkade skrivbordet med en trasa.", "choice2": "Jag tog bort böckerna från skrivbordet.", "idx": 136, "label": 0, "premise": "Dammet kom från skrivbordet.", "question": "cause"}
+{"choice1": "Tuggummit fastnade i elevens sko.", "choice2": "Eleven spottade ut tuggummit.", "idx": 137, "label": 1, "premise": "Läraren fångade elevens tuggummi.", "question": "effect"}
+{"choice1": "Hans gäster var vänliga.", "choice2": "Hans gäster blev hungriga.", "idx": 138, "label": 0, "premise": "Värden serverade middag till sina gäster.", "question": "effect"}
+{"choice1": "En katt fastnade i trädet.", "choice2": "En fågel byggde ett bo i trädet.", "idx": 139, "label": 0, "premise": "Pojken klättrade upp i trädet.", "question": "cause"}
+{"choice1": "Mannen bar stolen till sitt kontor.", "choice2": "Mannen skootade stolen närmare sitt skrivbord.", "idx": 140, "label": 1, "premise": "Stolen gnisslade.", "question": "cause"}
+{"choice1": "Han gick under vatten.", "choice2": "Han trampade vatten.", "idx": 141, "label": 0, "premise": "Mannen höll andan.", "question": "cause"}
+{"choice1": "Jag rymde.", "choice2": "Jag bad honom om ursäkt.", "idx": 142, "label": 1, "premise": "Jag stötte klumpigt på främlingen.", "question": "effect"}
+{"choice1": "Kaptenen höjde seglet.", "choice2": "Den fångades i en orkan.", "idx": 143, "label": 1, "premise": "Båten kapsejsade.", "question": "cause"}
+{"choice1": "Han vägrade att prata med henne.", "choice2": "Han undvek ögonkontakt med henne.", "idx": 144, "label": 1, "premise": "Mamman misstänkte att hennes son ljög.", "question": "cause"}
+{"choice1": "En komet passerade månen.", "choice2": "En komet kolliderade med månen.", "idx": 145, "label": 1, "premise": "En krater bildas på månen.", "question": "cause"}
+{"choice1": "Jag vattnade jorden.", "choice2": "Fröna grodde.", "idx": 146, "label": 1, "premise": "Jag planterade fröna i jorden.", "question": "effect"}
+{"choice1": "Han ville behålla sitt privatliv.", "choice2": "Han stödde orsaken bakom sin donation.", "idx": 147, "label": 0, "premise": "Välgöraren ville vara anonym.", "question": "cause"}
+{"choice1": "Hon förklarade ärret för främlingar.", "choice2": "Hon gömde ärret med smink.", "idx": 148, "label": 1, "premise": "Kvinnan skämdes för ärr i ansiktet.", "question": "effect"}
+{"choice1": "Han samlade snäckskal i sanden.", "choice2": "Han byggde ett sandslott.", "idx": 149, "label": 1, "premise": "Pojken fyllde hinken med sand.", "question": "cause"}
+{"choice1": "Hon raderade gamla filer på datorn.", "choice2": "Hon installerade ny programvara på datorn.", "idx": 150, "label": 1, "premise": "Kvinnan uppgraderade sin datorutrustning.", "question": "effect"}
+{"choice1": "Hennes föräldrar visade henne hur man dansar.", "choice2": "Hennes föräldrar kom för att titta på uppvisningen.", "idx": 151, "label": 1, "premise": "Flickan uppträdde i en dansuppvisning.", "question": "effect"}
+{"choice1": "Mamman plockade upp barnet.", "choice2": "Barnet kröp till mamman.", "idx": 152, "label": 0, "premise": "Barnet jämrade sig i sin spjälsäng.", "question": "effect"}
+{"choice1": "Jag kastade bort onödigt innehåll.", "choice2": "Jag låste lådorna.", "idx": 153, "label": 0, "premise": "Byråns lådor var belamrade.", "question": "effect"}
+{"choice1": "Han fick en perfekt poäng.", "choice2": "Han låtsades vara intresserad av klassen.", "idx": 154, "label": 0, "premise": "Eleven visade proven för sina klasskamrater.", "question": "cause"}
+{"choice1": "Han åkte bort till lägret.", "choice2": "Han bråkade med sin syster.", "idx": 155, "label": 0, "premise": "Pojken kände sig hemlängtan.", "question": "cause"}
+{"choice1": "Flickan lanserade den.", "choice2": "Flickan formgav det.", "idx": 156, "label": 0, "premise": "Raketen flög upp i himlen.", "question": "cause"}
+{"choice1": "Tornadoes sågs i området.", "choice2": "Jag blev uppehållen på flygplatsens säkerhetsvakter.", "idx": 157, "label": 0, "premise": "Mitt flyg blev försenat.", "question": "cause"}
+{"choice1": "Jag tände ett ljus.", "choice2": "Jag brände min middag.", "idx": 158, "label": 1, "premise": "Röklarmet gick.", "question": "cause"}
+{"choice1": "Jag stencilerade det.", "choice2": "Jag limmade ihop den igen.", "idx": 159, "label": 1, "premise": "Vasen gick sönder.", "question": "effect"}
+{"choice1": "Hon tog tag i dörrhandtaget.", "choice2": "Hon bankade på dörren.", "idx": 160, "label": 0, "premise": "Kvinnan kände en elektrisk chock.", "question": "cause"}
+{"choice1": "Jag kände någon närma sig mig bakifrån.", "choice2": "Jag hörde folk skrocka i rummet intill.", "idx": 161, "label": 0, "premise": "Jag hoppade instinktivt i skräck.", "question": "cause"}
+{"choice1": "Han planterade en mängd olika frön.", "choice2": "Han lade gödsel i jorden.", "idx": 162, "label": 1, "premise": "Trädgårdsmästaren ville att hans växter skulle blomstra.", "question": "effect"}
+{"choice1": "Vattnet var ohygieniskt.", "choice2": "Röret frös.", "idx": 163, "label": 1, "premise": "Ett vattenrör i huset brast.", "question": "cause"}
+{"choice1": "Jag satte på mig ett bälte.", "choice2": "Jag satte på mig en hatt.", "idx": 164, "label": 0, "premise": "Midjebandet på mina byxor var löst.", "question": "effect"}
+{"choice1": "De försummade att betala hyran.", "choice2": "De kom överens med sin hyresvärd.", "idx": 165, "label": 0, "premise": "Hyresgästerna vräktes från lägenheten.", "question": "cause"}
+{"choice1": "Han missade ett möte med tandläkaren.", "choice2": "Han bokade tid hos tandläkaren.", "idx": 166, "label": 1, "premise": "Mannen vaknade med tandvärk.", "question": "effect"}
+{"choice1": "Deras bästa spelare skadades.", "choice2": "Deras tränare pumpade upp dem.", "idx": 167, "label": 0, "premise": "Teamet förlorade matchen.", "question": "cause"}
+{"choice1": "Filmen var betygsatt R.", "choice2": "Filmen var animerad.", "idx": 168, "label": 0, "premise": "Föräldrarna förbjöd sina barn att titta på filmen.", "question": "cause"}
+{"choice1": "Polisen förhörde henne.", "choice2": "Hennes alibi stämde.", "idx": 169, "label": 1, "premise": "Polisen tog bort kvinnan från listan över misstänkta.", "question": "cause"}
+{"choice1": "De stötte på en lavin.", "choice2": "De gratulerade varandra.", "idx": 170, "label": 1, "premise": "Klättrarna nådde bergets topp.", "question": "effect"}
+{"choice1": "Fönstret sprack.", "choice2": "Fönstret dimmade upp.", "idx": 171, "label": 0, "premise": "Vandalerna kastade en sten mot fönstret.", "question": "effect"}
+{"choice1": "Hon fick många återkommande kunder.", "choice2": "Många kunder bad om återbetalning.", "idx": 172, "label": 0, "premise": "Spåmannens avslöjanden var övertygande.", "question": "effect"}
+{"choice1": "Det ökade sina marknadsföringsinsatser för nya produkter.", "choice2": "Den flyttade sitt högkvarter till en förortsplats.", "idx": 173, "label": 0, "premise": "Företagets vinster började jämnas ut.", "question": "effect"}
+{"choice1": "Läraren gav bonuspoäng till studentens betyg.", "choice2": "Läraren subtraherade poäng från studentens betyg.", "idx": 174, "label": 1, "premise": "Studentens svar på provet var felaktigt.", "question": "effect"}
+{"choice1": "Hon slängde sin servett efter att ha ätit.", "choice2": "Hon la servetten på knät innan hon åt.", "idx": 175, "label": 1, "premise": "Flickan ville visa korrekt etikett.", "question": "effect"}
+{"choice1": "Polisen konfiskerade polisbrickan.", "choice2": "Polisen lät polisen komma in på brottsplatsen.", "idx": 176, "label": 1, "premise": "Detektiven visade sin bricka för polisen.", "question": "effect"}
+{"choice1": "Hennes föräldrar tog hennes leksak.", "choice2": "Hennes föräldrar gav henne en leksak.", "idx": 177, "label": 1, "premise": "Barnet började gråta.", "question": "effect"}
+{"choice1": "Jag stirrade blankt på honom.", "choice2": "Jag stannade för att prata med honom.", "idx": 178, "label": 0, "premise": "Främlingen ropade till mig på ett främmande språk.", "question": "effect"}
+{"choice1": "Mannen undvek sin fiende.", "choice2": "Mannen utpressade sin fiende.", "idx": 179, "label": 1, "premise": "Mannen avslöjade bevis mot sin fiende.", "question": "effect"}
+{"choice1": "Hon gled nerför rutschkanan.", "choice2": "Hon kröp upp i rutschkanan.", "idx": 180, "label": 0, "premise": "Flickan knuffade sig själv från toppen av rutschkanan.", "question": "effect"}
+{"choice1": "Hennes föräldrar kramade henne.", "choice2": "Hennes föräldrar straffade henne.", "idx": 181, "label": 1, "premise": "Barnet lydde inte sina föräldrar.", "question": "effect"}
+{"choice1": "Ägaren tog den till biltvätten.", "choice2": "Ägaren tog in den för ett färgjobb.", "idx": 182, "label": 0, "premise": "Bilen såg smutsig ut.", "question": "effect"}
+{"choice1": "Jag bad om återbetalning.", "choice2": "Jag betalade tillbaka.", "idx": 183, "label": 1, "premise": "Min vän betalade min biljett.", "question": "effect"}
+{"choice1": "Juryn var rättvis.", "choice2": "Hon blev ditsatt.", "idx": 184, "label": 1, "premise": "Kvinnan dömdes felaktigt för brottet.", "question": "cause"}
+{"choice1": "Hon misstrodde dem.", "choice2": "Hon missade dem.", "idx": 185, "label": 1, "premise": "Kvinnan besökte sin familj.", "question": "cause"}
+{"choice1": "Mina tänder började pladdra.", "choice2": "Mina ögon vällde upp av tårar.", "idx": 186, "label": 1, "premise": "Jag började skratta.", "question": "effect"}
+{"choice1": "Studenterna protesterade mot beslutet.", "choice2": "Eleverna blev relegerade från skolan.", "idx": 187, "label": 0, "premise": "Skolans rektor införde en klädkod.", "question": "effect"}
+{"choice1": "Jag blåste i den.", "choice2": "Jag tog den.", "idx": 188, "label": 0, "premise": "Ballongen expanderade.", "question": "cause"}
+{"choice1": "Han har ett hål i strumpan.", "choice2": "Han tappade en hammare på foten.", "idx": 189, "label": 1, "premise": "Han bröt tån.", "question": "cause"}
+{"choice1": "Han manipulerade sin vän.", "choice2": "Han erkände sitt misstag.", "idx": 190, "label": 1, "premise": "Mannen fick en samvetsattack.", "question": "effect"}
+{"choice1": "Rektorn avbröt eleverna.", "choice2": "Rektorn ställde in lektionerna för dagen.", "idx": 191, "label": 0, "premise": "Ett slagsmål bröt ut i skolans sal.", "question": "effect"}
+{"choice1": "De förblev orörda i åratal.", "choice2": "Familjen mindes över bilderna.", "idx": 192, "label": 0, "premise": "Fotoalbumen samlade damm på vinden.", "question": "cause"}
+{"choice1": "Maskinen är påslagen.", "choice2": "Jag fick slut på tvättmedel.", "idx": 193, "label": 0, "premise": "Jag la mynt i tvättmaskinen på tvättomaten.", "question": "effect"}
+{"choice1": "Prognosen krävde stormar.", "choice2": "Det var en helghelg.", "idx": 194, "label": 0, "premise": "Familjen sköt upp grillfesten.", "question": "cause"}
+{"choice1": "Det var uppblåst.", "choice2": "Det fanns ett hål i den.", "idx": 195, "label": 1, "premise": "Luften läckte ut från strandbollen.", "question": "cause"}
+{"choice1": "Jag kände mig obekväm.", "choice2": "Jag blev rasande.", "idx": 196, "label": 0, "premise": "Vår grupps samtal invaggade gradvis till tystnad.", "question": "effect"}
+{"choice1": "Ett ljud spelat.", "choice2": "Nyckeln fastnade.", "idx": 197, "label": 0, "premise": "Kvinnan tryckte på pianonyckeln.", "question": "effect"}
+{"choice1": "Hon gick för att se hans nya film.", "choice2": "Hon bad honom om hans autograf.", "idx": 198, "label": 1, "premise": "Flickan träffade sin favoritskådespelare.", "question": "effect"}
+{"choice1": "Det var molnigt.", "choice2": "Det var dimmigt.", "idx": 199, "label": 1, "premise": "Fordonen reste långsamt.", "question": "cause"}
+{"choice1": "Ljuskronan föll ner från taket.", "choice2": "Ljuskronans ljus blinkade på och av.", "idx": 200, "label": 0, "premise": "Ljuskronan krossades på golvet.", "question": "cause"}
+{"choice1": "Hans syster skvallrade på honom.", "choice2": "De lekte kurragömma.", "idx": 201, "label": 0, "premise": "Pojken knuffade sin syster.", "question": "effect"}
+{"choice1": "Han fick sin kostym förändrad.", "choice2": "Han fick sina skor putsade.", "idx": 202, "label": 0, "premise": "Mannen gick upp i vikt.", "question": "effect"}
+{"choice1": "Jag tog med min laptop till jobbet.", "choice2": "Jag tog med mitt paraply till jobbet.", "idx": 203, "label": 1, "premise": "Molnen såg mörka ut.", "question": "effect"}
+{"choice1": "Flygplanet kraschade.", "choice2": "Piloten gjorde ett misstag.", "idx": 204, "label": 0, "premise": "Motorn på flygplanet var felaktig.", "question": "effect"}
+{"choice1": "Baren var hal.", "choice2": "Baren avgav en doft.", "idx": 205, "label": 0, "premise": "Pojken tappade greppet om tvålen.", "question": "cause"}
+{"choice1": "Jag sydde på knappen igen.", "choice2": "Jag limmade fast knappen igen.", "idx": 206, "label": 0, "premise": "Knappen på skjortan föll av.", "question": "effect"}
+{"choice1": "Hon ville tacka sina fans.", "choice2": "Hon ville undvika erkännande.", "idx": 207, "label": 1, "premise": "Kändisen bar solglasögon.", "question": "cause"}
+{"choice1": "Min familj höll en begravning.", "choice2": "Min familj hade en återförening.", "idx": 208, "label": 0, "premise": "Min mormor gick bort.", "question": "effect"}
+{"choice1": "Han litade på terapeuten.", "choice2": "Han höll inte med terapeuten.", "idx": 209, "label": 0, "premise": "Mannen avslöjade personuppgifter för terapeuten.", "question": "cause"}
+{"choice1": "Gärningsmannen slog mannen i huvudet.", "choice2": "Gärningsmannen tog mannens plånbok.", "idx": 210, "label": 0, "premise": "Mannen föll medvetslös.", "question": "cause"}
+{"choice1": "Han verkade upptagen.", "choice2": "Han såg bekant ut.", "idx": 211, "label": 1, "premise": "Jag närmade mig mannen.", "question": "cause"}
+{"choice1": "Han bekämpade fattigdom.", "choice2": "Han höjde skatterna.", "idx": 212, "label": 0, "premise": "Ledaren fick beröm.", "question": "cause"}
+{"choice1": "Locket på brevlådan gick sönder.", "choice2": "Jag åkte på semester i två veckor.", "idx": 213, "label": 1, "premise": "Min brevlåda var full av brev.", "question": "cause"}
+{"choice1": "Vi pressade dem.", "choice2": "Vi åt upp dem.", "idx": 214, "label": 1, "premise": "Bananerna mognade.", "question": "effect"}
+{"choice1": "Degen gick sönder.", "choice2": "Degen är tillplattad.", "idx": 215, "label": 1, "premise": "Kocken pressade ner degen.", "question": "effect"}
+{"choice1": "Krukmakaren rullade leran till en boll.", "choice2": "Krukmakaren lägger leran i ugnen.", "idx": 216, "label": 1, "premise": "Den härdade leran.", "question": "cause"}
+{"choice1": "Hennes vän skickade ett gratulationskort till henne.", "choice2": "Hennes vän avbröt kontakten med henne.", "idx": 217, "label": 1, "premise": "Kvinnan förrådde sin vän.", "question": "effect"}
+{"choice1": "Han fick en doft av hennes parfym.", "choice2": "Han vände ryggen mot henne.", "idx": 218, "label": 0, "premise": "Mannen lade märke till kvinnan.", "question": "cause"}
+{"choice1": "De slutade träffas.", "choice2": "De planerade en semester tillsammans.", "idx": 219, "label": 0, "premise": "Kvinnan och hennes pojkvän bråkade.", "question": "effect"}
+{"choice1": "Mobbaren plockade upp sin klasskamrat.", "choice2": "Mobbarens klasskamrat snubblade.", "idx": 220, "label": 1, "premise": "Mobbaren stack ut foten framför sin klasskamrat.", "question": "effect"}
+{"choice1": "Mitt gäspande upphörde.", "choice2": "Jag nickade till sömns.", "idx": 221, "label": 0, "premise": "Jag drack en kopp kaffe.", "question": "effect"}
+{"choice1": "Kvinnan stod sin syster nära.", "choice2": "Kvinnan såg ut som sin syster.", "idx": 222, "label": 1, "premise": "Kvinnan misstog sig för sin syster.", "question": "cause"}
+{"choice1": "Han kollade sitt arbete.", "choice2": "Hans arbete var förhastat.", "idx": 223, "label": 1, "premise": "Mannen gjorde ett misstag i sina beräkningar.", "question": "cause"}
+{"choice1": "Hon lutade sig ner vid poolen.", "choice2": "Hon gick in i bastun.", "idx": 224, "label": 1, "premise": "Kvinnans glasögon grumlade upp.", "question": "cause"}
+{"choice1": "Tävlingen ledde.", "choice2": "Tävlingen ringde.", "idx": 225, "label": 1, "premise": "Värden för triviashowen bad den tävlande om ett svar.", "question": "cause"}
+{"choice1": "Han tände sitt nattljus.", "choice2": "Han såg en skräckfilm.", "idx": 226, "label": 1, "premise": "Pojken var rädd för att gå och lägga sig.", "question": "cause"}
+{"choice1": "Hon besökte sjukhuset.", "choice2": "Hon gick på läkarlinjen.", "idx": 227, "label": 1, "premise": "Kvinnan ville bli läkare.", "question": "effect"}
+{"choice1": "Han spelade in det.", "choice2": "Han stängde av den.", "idx": 228, "label": 1, "premise": "Pojken tyckte att tv-programmet var tråkigt.", "question": "effect"}
+{"choice1": "Han vägrade att bära skjortan.", "choice2": "Han bad sin mor om hjälp.", "idx": 229, "label": 1, "premise": "Pojken hade svårt att knäppa skjortan.", "question": "effect"}
+{"choice1": "Jag blåste en bubbla med tuggummit.", "choice2": "Tuggummit tappade smaken.", "idx": 230, "label": 1, "premise": "Jag spottar ut tuggummit.", "question": "cause"}
+{"choice1": "Hans mamma hängde bilden på väggen.", "choice2": "Hans mamma sålde bilden till ett galleri.", "idx": 231, "label": 0, "premise": "Pojken målade en bild åt sin mor.", "question": "effect"}
+{"choice1": "Teamen blev upppumpade.", "choice2": "Lagen skakade hand.", "idx": 232, "label": 1, "premise": "Tävlingen slutade.", "question": "effect"}
+{"choice1": "Jag gjorde mig av med fläcken.", "choice2": "Jag har smuts på golvet.", "idx": 233, "label": 0, "premise": "Jag skrubbade fläcken på golvet.", "question": "effect"}
+{"choice1": "Jag klippte ihop dem.", "choice2": "Jag höll dem på en säker plats.", "idx": 234, "label": 1, "premise": "Dokumenten innehöll viktig information.", "question": "effect"}
+{"choice1": "Jag tappade den.", "choice2": "Jag kokade den.", "idx": 235, "label": 0, "premise": "Ägget stänkte.", "question": "cause"}
+{"choice1": "Hennes vän kvävdes.", "choice2": "Hennes vän ramlade över.", "idx": 236, "label": 1, "premise": "Flickan knuffade sin vän.", "question": "effect"}
+{"choice1": "Han var svettig efter att ha tränat.", "choice2": "Han öppnade en ny tvål.", "idx": 237, "label": 0, "premise": "Mannen duschade.", "question": "cause"}
+{"choice1": "Den bärbara datorns garanti gick ut.", "choice2": "Den bärbara datorns batteri dog.", "idx": 238, "label": 1, "premise": "Skärmen på laptopen blev svart.", "question": "cause"}
+{"choice1": "Det anpassades till en film.", "choice2": "Författaren bleknade till dunkelhet.", "idx": 239, "label": 0, "premise": "Boken blev en stor bästsäljare.", "question": "effect"}
+{"choice1": "Han botades från cancer.", "choice2": "Hans fru fick diagnosen cancer.", "idx": 240, "label": 0, "premise": "Mannen kände sig tacksam över att vara vid liv.", "question": "cause"}
+{"choice1": "Hon tjänade mycket pengar i sitt nuvarande yrke.", "choice2": "Hon uthärdade mycket stress i sitt nuvarande yrke.", "idx": 241, "label": 0, "premise": "Kvinnan kände sig ovillig att byta karriär.", "question": "cause"}
+{"choice1": "Mannen ringde henne.", "choice2": "Mannen förföljde henne.", "idx": 242, "label": 1, "premise": "Kvinnan lämnade in ett besöksförbud mot mannen.", "question": "cause"}
+{"choice1": "Simmarna tog på sig mer solskydd.", "choice2": "Simmarna återvände mot stranden.", "idx": 243, "label": 1, "premise": "Havsvatten var farligt.", "question": "effect"}
+{"choice1": "Hon var den utsedda föraren för natten.", "choice2": "Hon kände till bartendern.", "idx": 244, "label": 0, "premise": "Kvinnan vägrade en andra öl.", "question": "cause"}
+{"choice1": "Hon skickades till en psykiatrisk institution.", "choice2": "Hon sökte en karriär som psykiater.", "idx": 245, "label": 0, "premise": "Kvinnan ansågs psykiskt sjuk.", "question": "effect"}
+{"choice1": "Kvinnan tittade på sin klocka.", "choice2": "Kvinnan tog av sig tröjan.", "idx": 246, "label": 1, "premise": "Solen gick upp från molnen.", "question": "effect"}
+{"choice1": "Han skrek när en spelare fumlade bollen.", "choice2": "Han visslade när en spelare gjorde en touchdown.", "idx": 247, "label": 0, "premise": "Fotbollstränaren förlorade rösten efter matchen.", "question": "cause"}
+{"choice1": "Han nös.", "choice2": "Han rodnade.", "idx": 248, "label": 1, "premise": "Kvinnan berömde mannen.", "question": "effect"}
+{"choice1": "Hon tog antibiotika.", "choice2": "Hon tvättade händerna.", "idx": 249, "label": 0, "premise": "Kvinnan hade en infektion.", "question": "effect"}
+{"choice1": "Hon kontaktade sin advokat.", "choice2": "Hon ställde in sina möten.", "idx": 250, "label": 1, "premise": "Kvinnan blev kallad till jurytjänst.", "question": "effect"}
+{"choice1": "Hon installerade luftkonditioneringen i rummet.", "choice2": "Luftkonditioneringen i rummet gick sönder.", "idx": 251, "label": 1, "premise": "Kvinnan fantiserade sig själv med handen.", "question": "cause"}
+{"choice1": "Den var svårt skadad.", "choice2": "Den var allvarligt infekterad.", "idx": 252, "label": 1, "premise": "Läkarna amputerade patientens ben.", "question": "cause"}
+{"choice1": "Han campade i skogen.", "choice2": "Han somnade på soffan.", "idx": 253, "label": 0, "premise": "Mannen blev biten av myggor.", "question": "cause"}
+{"choice1": "Hennes bror vägrade att ta emot gåvan.", "choice2": "Hennes bror packade upp presenten.", "idx": 254, "label": 1, "premise": "Kvinnan gav sin bror en gåva.", "question": "effect"}
+{"choice1": "Mötet sköts upp.", "choice2": "Mötet inleddes.", "idx": 255, "label": 1, "premise": "Administratören tog strupen av henne.", "question": "effect"}
+{"choice1": "De åt isglassar.", "choice2": "De var heta.", "idx": 256, "label": 1, "premise": "Barnen sprang genom sprinklern.", "question": "cause"}
+{"choice1": "Vendern sålde den till honom.", "choice2": "Han förhandlade med säljaren.", "idx": 257, "label": 1, "premise": "Kunden tyckte souveniren var för dyr.", "question": "effect"}
+{"choice1": "Hon upptäckte en ny art.", "choice2": "Hon fick anställning vid universitetet.", "idx": 258, "label": 0, "premise": "Vetenskapsmannen fick erkännande.", "question": "cause"}
+{"choice1": "Fotgängaren korsade vägen.", "choice2": "Fotgängaren väntade på trottoaren.", "idx": 259, "label": 0, "premise": "Bilen stannade vid korsningen.", "question": "effect"}
+{"choice1": "Hans bror kittlade honom.", "choice2": "Hans bror sparkade honom.", "idx": 260, "label": 0, "premise": "Pojken fnittrade okontrollerat.", "question": "cause"}
+{"choice1": "Det var en tydlig kväll.", "choice2": "Det var sent.", "idx": 261, "label": 1, "premise": "Jag gick och la mig.", "question": "cause"}
+{"choice1": "Jag släppte av henne på sjukhuset.", "choice2": "Jag tog med ett kort och blommor till henne.", "idx": 262, "label": 1, "premise": "Min vän återhämtade sig från operationen.", "question": "effect"}
+{"choice1": "Folk lämnade festen.", "choice2": "Folk började dansa.", "idx": 263, "label": 1, "premise": "DJ:n satte på musiken.", "question": "effect"}
+{"choice1": "Övervakningskameran var ur fokus.", "choice2": "Han lade märke till några misstänkta aktiviteter.", "idx": 264, "label": 1, "premise": "Vakten spelade upp övervakningsfilmen.", "question": "cause"}
+{"choice1": "Han räckte ut ryggen.", "choice2": "Han repade ryggen.", "idx": 265, "label": 0, "premise": "Mannen lyfte den tunga lådan.", "question": "effect"}
+{"choice1": "Den innehöll mycket skräp.", "choice2": "Hon lämnade den oövervakad.", "idx": 266, "label": 1, "premise": "Kvinnans väska saknades.", "question": "cause"}
+{"choice1": "Hon fick en allergisk reaktion.", "choice2": "Hon råkade ut för en bilolycka.", "idx": 267, "label": 1, "premise": "Kvinnan led av minnesförlust.", "question": "cause"}
+{"choice1": "Jag gick till banken.", "choice2": "Jag köpte en plånbok.", "idx": 268, "label": 0, "premise": "Jag behövde pengar.", "question": "effect"}
+{"choice1": "Han lyfte på vikterna.", "choice2": "Han spelade dataspel.", "idx": 269, "label": 0, "premise": "Pojken ville vara muskulös.", "question": "effect"}
+{"choice1": "Hon bekräftade sin teori.", "choice2": "Hon uppfann sina data.", "idx": 270, "label": 0, "premise": "Vetenskapsmannen utförde ett experiment.", "question": "effect"}
+{"choice1": "Det var pastöriserat.", "choice2": "Jag förvarade den i kylskåpet.", "idx": 271, "label": 1, "premise": "Mjölken förblev kall.", "question": "cause"}
+{"choice1": "Föräldrarna skakade en skallra framför barnet.", "choice2": "Föräldrarna valde ut ett namn till barnet.", "idx": 272, "label": 0, "premise": "Den kinkiga bebisen lugnade ner sig.", "question": "cause"}
+{"choice1": "Hennes vän glömde att ta med sin lunch.", "choice2": "Hennes vän satt bredvid henne vid lunchen.", "idx": 273, "label": 0, "premise": "Flickan delade sin lunch med sin vän.", "question": "cause"}
+{"choice1": "De grep den misstänkte.", "choice2": "Offret återhämtade sig.", "idx": 274, "label": 0, "premise": "Polisen avslutade utredningen.", "question": "cause"}
+{"choice1": "Jag tog en promenad.", "choice2": "Jag surfade på internet.", "idx": 275, "label": 0, "premise": "Regnet avtog.", "question": "effect"}
+{"choice1": "Jag blåste på den.", "choice2": "Jag hällde ut den.", "idx": 276, "label": 0, "premise": "Teet skållade varmt.", "question": "effect"}
+{"choice1": "Mobbaren hånade pojken.", "choice2": "Mobbaren slog till pojken.", "idx": 277, "label": 1, "premise": "Pojken fick en blåtira.", "question": "cause"}
+{"choice1": "Jag hämtade min telefon.", "choice2": "Jag gick tillbaka mina steg.", "idx": 278, "label": 1, "premise": "Jag har tappat bort min plånbok.", "question": "effect"}
+{"choice1": "Han laddade om vapnet.", "choice2": "Han siktade på hjorten.", "idx": 279, "label": 0, "premise": "Jägaren fick slut på ammunition.", "question": "effect"}
+{"choice1": "Båtar seglade genom havet.", "choice2": "Olja spilldes ut i havet.", "idx": 280, "label": 1, "premise": "Det marina livet minskade.", "question": "cause"}
+{"choice1": "Hon glömde plånboken hemma.", "choice2": "Fönsterfönstret fångade hennes öga.", "idx": 281, "label": 1, "premise": "Kunden kom in i butiken.", "question": "cause"}
+{"choice1": "Hans mat var kall.", "choice2": "Hans måltid var kryddig.", "idx": 282, "label": 1, "premise": "Mannen drack vatten med sin måltid.", "question": "cause"}
+{"choice1": "Hon var smittsam.", "choice2": "Hon var berusad.", "idx": 283, "label": 0, "premise": "Kvinnan höll sig borta från offentliga platser.", "question": "cause"}
+{"choice1": "Jag klämde handen över näsan.", "choice2": "Jag satte på gummihandskarna.", "idx": 284, "label": 0, "premise": "Den ruttna lukten fyllde rummet.", "question": "effect"}
+{"choice1": "Pappersklippet föll från magneten.", "choice2": "Pappersklämman fastnade vid magneten.", "idx": 285, "label": 1, "premise": "Magneten lockade till sig pappersklippet.", "question": "effect"}
+{"choice1": "Ogräset kom ut ur jorden.", "choice2": "Ogräset producerade frön.", "idx": 286, "label": 0, "premise": "Trädgårdsmästaren drog ogräset.", "question": "effect"}
+{"choice1": "Pizzan levererades.", "choice2": "Pizzan blev kall.", "idx": 287, "label": 0, "premise": "Vi beställde pizza.", "question": "effect"}
+{"choice1": "Han gick igenom en tillväxtspurt.", "choice2": "Han gick med i basketlaget.", "idx": 288, "label": 0, "premise": "Tonåringen blev längre än sin far.", "question": "cause"}
+{"choice1": "Han hoppade över stängslet.", "choice2": "Ärmen är sönderriven.", "idx": 289, "label": 1, "premise": "Mannen fångade skjortorna på staketet.", "question": "effect"}
+{"choice1": "Han lämnade en lapp.", "choice2": "Han hade barn.", "idx": 290, "label": 0, "premise": "Utredarna ansåg att mannens död var självmord.", "question": "cause"}
+{"choice1": "Jag har säkerhetskopierat mina filer.", "choice2": "Jag laddade ner ett virus.", "idx": 291, "label": 1, "premise": "Datorn kraschade.", "question": "cause"}
+{"choice1": "Hon tappade en tand.", "choice2": "Hon svalde sitt tuggummi.", "idx": 292, "label": 0, "premise": "Tjejens mun värker.", "question": "cause"}
+{"choice1": "Hon lärde sig att gå.", "choice2": "Han var trött på att bära henne.", "idx": 293, "label": 1, "premise": "Pappan la sin dotter i barnvagnen.", "question": "cause"}
+{"choice1": "Spionen buggade fiendens telefon.", "choice2": "Spionen anlitades av regeringen.", "idx": 294, "label": 0, "premise": "Spionen upptäckte fiendens position.", "question": "cause"}
+{"choice1": "Barnet ritade på bordet.", "choice2": "Barnet drog i bordsduken.", "idx": 295, "label": 1, "premise": "Glasen på bordet spilldes.", "question": "cause"}
+{"choice1": "Tekannan svalnade.", "choice2": "Tekannan visslade.", "idx": 296, "label": 1, "premise": "Vattnet i tekannan började koka.", "question": "effect"}
+{"choice1": "Hon ville ha uppmärksamhet.", "choice2": "Hon kände sig blyg.", "idx": 297, "label": 0, "premise": "Kvinnan överdrev detaljerna i berättelsen.", "question": "cause"}
+{"choice1": "Hon gick i pension.", "choice2": "Hon dök i himlen.", "idx": 298, "label": 1, "premise": "Kvinnan drabbades av en medelålderskris.", "question": "effect"}
+{"choice1": "Han kom över det lätt.", "choice2": "Han vägrade att tala om det.", "idx": 299, "label": 1, "premise": "Mannen förnekade tragedin.", "question": "effect"}
+{"choice1": "Hans fru kritiserade honom.", "choice2": "Hans mor gick bort.", "idx": 300, "label": 1, "premise": "Mannen sörjde.", "question": "cause"}
+{"choice1": "Jag gick en yogakurs.", "choice2": "Jag köpte frukt och grönsaker.", "idx": 301, "label": 1, "premise": "Jag bestämde mig för att äta en hälsosam kost.", "question": "effect"}
+{"choice1": "Han led av känslomässiga trauman.", "choice2": "Han fick hjärnskador.", "idx": 302, "label": 1, "premise": "Patienten hamnade i koma.", "question": "cause"}
+{"choice1": "Samtalet lugnade ner sig.", "choice2": "En debatt bröt ut.", "idx": 303, "label": 1, "premise": "Vännernas middagssamtal vände sig till politik.", "question": "effect"}
+{"choice1": "Kvinnan vinkade.", "choice2": "Kvinnan rymde.", "idx": 304, "label": 0, "premise": "Kvinnan såg sin vän från andra sidan rummet.", "question": "cause"}
+{"choice1": "Ännu en bil svängde in i hennes körfält.", "choice2": "Hon svängde höger vid ljuset.", "idx": 305, "label": 0, "premise": "Föraren tutade på hennes horn.", "question": "cause"}
+{"choice1": "Han tog ut pengar från sitt sparkonto.", "choice2": "Han drog ner på att göra lättsinniga inköp.", "idx": 306, "label": 1, "premise": "Han ville spara pengar.", "question": "effect"}
+{"choice1": "Golvet innehöll krossat glas.", "choice2": "Färgen på väggarna var våt.", "idx": 307, "label": 0, "premise": "Jag tar på mig skorna.", "question": "cause"}
+{"choice1": "Jag bad bibliotekarien om hjälp.", "choice2": "Boken är utcheckad.", "idx": 308, "label": 0, "premise": "Bibliotekarien hittade boken i högarna.", "question": "cause"}
+{"choice1": "Jag letade efter en ny lägenhet.", "choice2": "Jag skulle flytta ut ur min lägenhet.", "idx": 309, "label": 1, "premise": "Jag packade mina tillhörigheter.", "question": "cause"}
+{"choice1": "Pojken såg upp till sin äldre bror.", "choice2": "Pojken brottades med sin äldre bror.", "idx": 310, "label": 0, "premise": "Pojken härmade sin äldre bror.", "question": "cause"}
+{"choice1": "Hon rymde hemifrån.", "choice2": "Hon följde sina föräldrars regler.", "idx": 311, "label": 1, "premise": "Flickan ville ha sin förälders godkännande.", "question": "effect"}
+{"choice1": "Motorcyklisten dog.", "choice2": "Bron kollapsade.", "idx": 312, "label": 0, "premise": "Lastbilen kraschade in i motorcykeln på bron.", "question": "effect"}
+{"choice1": "Hon fick en guldmedalj.", "choice2": "Hennes team förlorade mötet.", "idx": 313, "label": 0, "premise": "Simmaren vann loppet.", "question": "effect"}
+{"choice1": "Fabrikerna ökade sin produktion.", "choice2": "Fabrikerna stängdes av.", "idx": 314, "label": 0, "premise": "Luftföroreningarna i staden förvärrades.", "question": "cause"}
+{"choice1": "Hennes dotter rapade vid köksbordet.", "choice2": "Hennes dotter dukade köksbordet.", "idx": 315, "label": 0, "premise": "Mamman skällde ut sin dotter.", "question": "cause"}
+{"choice1": "Jag stängde av min telefon.", "choice2": "Min telefon ringde.", "idx": 316, "label": 1, "premise": "Jag ursäktade mig själv från gruppen.", "question": "cause"}
+{"choice1": "Han satte på sig glasögonen.", "choice2": "Mannen hämtade en penna ur fickan.", "idx": 317, "label": 0, "premise": "Trycket på broschyren var litet.", "question": "effect"}
+{"choice1": "Ljuset bleknade.", "choice2": "Ljuset fladdrade.", "idx": 318, "label": 1, "premise": "Jag slog på strömbrytaren upp och ner.", "question": "effect"}
+{"choice1": "Han väntade vid busshållplatsen.", "choice2": "Han bad en främling om tid.", "idx": 319, "label": 1, "premise": "Mannens klocka var trasig.", "question": "effect"}
+{"choice1": "De var beväpnade med gevär.", "choice2": "De bar kamouflageuniformer.", "idx": 320, "label": 1, "premise": "Soldaterna gömdes i penseln.", "question": "cause"}
