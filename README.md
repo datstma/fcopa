@@ -1,4 +1,4 @@
-# Financial COPA Evaluator
+# Financial LLM/ COPA Evaluator
 
 ## Project Overview
 
@@ -71,7 +71,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 stefan@mansby.se
 
-## Why do you need a Finacial COPA test?
+## Credits and inspiration
+- The Olverlim project (a wonderful project aimed at benchmarking LLM's in Scandinavian languages) https://huggingface.co/datasets/KBLab/overlim
+- Dr. Andrew S. Gordon (part of research team who developed COPA) https://asgordon.github.io/
+
+## Why do you need a Finacial COPA test, commercial benefits?
 
 Knowing which large language model (LLM) scores the best on financial COPA (Choice of Plausible Alternatives) tests can be highly beneficial in several business scenarios where advanced financial reasoning and comprehension are critical. Here are some scenarios where this knowledge would be valuable:
 
