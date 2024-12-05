@@ -224,9 +224,11 @@ if __name__ == "__main__":
 
     # Initialize evaluator with models to test
     models = [
-        #"ollama:llama3.2",             # Ollama model
+        #"ollama:llama3.1",             # Ollama model
+        "ollama:llama3.2",             # Ollama model
         #"openai:gpt-3.5-turbo",      # OpenAI model
-        "gemini:gemini-pro",         # Gemini model
+        #"openai:gpt-4",      # OpenAI model
+        #"gemini:gemini-pro",         # Gemini model
         # Add more models as needed
     ]
 
