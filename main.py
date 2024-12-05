@@ -9,12 +9,13 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 from clients.ollama_client import OllamaClient
 from clients.openai_client import OpenAIClient
+from clients.gemini_client import GeminiClient
 
 # Load environment variables from .env file
 load_dotenv()
 
 class ModelConfig:
-    def __init__(self, name: str, provider: Literal["ollama", "openai"]):
+    def __init__(self, name: str, provider: Literal["ollama", "openai", "gemini"]):
         self.name = name
         self.provider = provider
 
@@ -39,23 +40,35 @@ class COPAEvaluator:
         # Initialize API clients
         self.ollama_client = OllamaClient()
         self.openai_client = None
+        self.gemini_client = None
+
+        # Initialize OpenAI client if needed
         if any(model.provider == "openai" for model in self.models):
             api_key = os.getenv("OPENAI_API_KEY")
             if not api_key:
                 raise ValueError("OpenAI API key not found in .env file")
             self.openai_client = OpenAIClient(api_key=api_key)
 
+        # Initialize Gemini client if needed
+        if any(model.provider == "gemini" for model in self.models):
+            api_key = os.getenv("GOOGLE_API_KEY")
+            if not api_key:
+                raise ValueError("Google API key not found in .env file")
+            self.gemini_client = GeminiClient(api_key=api_key)
+
         # Initialize CSV file
         self.csv_filename = f"copa_evaluation_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
         with open(self.csv_filename, 'w', newline='') as csvfile:
             writer = csv.writer(csvfile)
-            writer.writerow(['Model', 'Question Number', 'Correct Answer', 'Predicted Answer'])
+            writer.writerow(['Model', 'Question Number', 'Correct Answer', 'Predicted Answer', 'Time Taken'])
 
-    def write_to_csv(self, model: str, question_number: int, correct_answer: int, predicted_answer: int):
+    def write_to_csv(self, model: str, question_number: int, correct_answer: int,
+                     predicted_answer: int, time_taken: float):
         """Write evaluation results to CSV file."""
         with open(self.csv_filename, 'a', newline='') as csvfile:
             writer = csv.writer(csvfile)
-            writer.writerow([model, question_number, correct_answer, predicted_answer])
+            writer.writerow([model, question_number, correct_answer, predicted_answer,
+                             round(time_taken, 3)])
 
     def format_prompt(self, item: Dict) -> str:
         """Format COPA item into a prompt for the model."""
@@ -80,6 +93,10 @@ class COPAEvaluator:
             if not self.openai_client:
                 raise ValueError("OpenAI client not initialized")
             return self.openai_client.query(model.name, prompt)
+        elif model.provider == "gemini":
+            if not self.gemini_client:
+                raise ValueError("Gemini client not initialized")
+            return self.gemini_client.query(model.name, prompt)
         else:
             raise ValueError(f"Unsupported model provider: {model.provider}")
 
@@ -89,7 +106,7 @@ class COPAEvaluator:
         for char in response:
             if char in ['0', '1']:
                 return int(char)
-        return 0  # Invalid response
+        return 0  # Default to 0 for invalid responses
 
     def evaluate_dataset(self, data: List[Dict]) -> Dict:
         """Evaluate models on COPA dataset."""
@@ -101,14 +118,14 @@ class COPAEvaluator:
                 prompt = self.format_prompt(item)
                 response, time_taken = self.query_model(model, prompt)
                 predicted_answer = self.extract_answer(response)
-                correct_answer = item["label"]  # COPA JSONL format uses "label" field
+                correct_answer = item["label"]
 
                 self.results[model_key]["total"] += 1
                 self.results[model_key]["correct"] += (predicted_answer == correct_answer)
                 self.results[model_key]["times"].append(time_taken)
 
                 # Write to CSV
-                self.write_to_csv(model_key, index, correct_answer, predicted_answer)
+                self.write_to_csv(model_key, index, correct_answer, predicted_answer, time_taken)
 
                 if self.debug:
                     print(f"\nPrompt: {prompt}")
@@ -116,6 +133,10 @@ class COPAEvaluator:
                     print(f"Predicted answer: {predicted_answer}")
                     print(f"Correct answer: {correct_answer}")
                     print(f"Time taken: {time_taken:.2f}s")
+
+                # Optional delay to avoid rate limits
+                if model.provider in ["openai", "gemini"]:
+                    time.sleep(1)  # Adjust as needed based on API rate limits
 
         return self.get_metrics()
 
@@ -140,23 +161,38 @@ class COPAEvaluator:
     def generate_performance_graph(self, output_file: str = 'model_performance.png'):
         """Generate and save a graph showing the performance of each model."""
         models = list(self.results.keys())
-        accuracies = [self.results[model]['correct'] / self.results[model]['total'] * 100 for model in models]
-        avg_times = [sum(self.results[model]['times']) / len(self.results[model]['times']) for model in models]
+        accuracies = [self.results[model]['correct'] / self.results[model]['total'] * 100
+                      for model in models]
+        avg_times = [sum(self.results[model]['times']) / len(self.results[model]['times'])
+                     for model in models]
 
+        # Create figure and axis objects with a single subplot
         fig, ax1 = plt.subplots(figsize=(12, 6))
 
         # Plot accuracy bars
         x = range(len(models))
-        ax1.bar(x, accuracies, align='center', alpha=0.8, color='b', label='Accuracy')
+        bars = ax1.bar(x, accuracies, align='center', alpha=0.8, color='b', label='Accuracy')
         ax1.set_ylabel('Accuracy (%)', color='b')
         ax1.set_ylim(0, 100)
         ax1.tick_params(axis='y', labelcolor='b')
 
-        # Plot average time line
+        # Add accuracy values on top of bars
+        for bar in bars:
+            height = bar.get_height()
+            ax1.text(bar.get_x() + bar.get_width()/2., height,
+                     f'{height:.1f}%',
+                     ha='center', va='bottom')
+
+        # Plot average time line on secondary y-axis
         ax2 = ax1.twinx()
-        ax2.plot(x, avg_times, color='r', marker='o', linestyle='-', linewidth=2, markersize=8, label='Avg Time')
+        line = ax2.plot(x, avg_times, color='r', marker='o', linestyle='-',
+                        linewidth=2, markersize=8, label='Avg Time')
         ax2.set_ylabel('Average Time (s)', color='r')
         ax2.tick_params(axis='y', labelcolor='r')
+
+        # Add time values above points
+        for i, time in enumerate(avg_times):
+            ax2.text(i, time, f'{time:.2f}s', ha='center', va='bottom')
 
         # Set x-axis labels
         plt.xticks(x, models, rotation=45, ha='right')
@@ -187,12 +223,11 @@ if __name__ == "__main__":
     copa_data = load_jsonl('FCOPA_ENG/val4.jsonl')  # Using validation set
 
     # Initialize evaluator with models to test
-    # Models can be specified in format "provider:model_name"
     models = [
-        "ollama:llama3.2",           # Ollama model
-        #"openai:gpt-3.5-turbo",   # OpenAI model
-        #"openai:gpt-4",           # OpenAI model
-        #ModelConfig("gpt-4", "openai"),   # Alternative way using ModelConfig
+        #"ollama:llama3.2",             # Ollama model
+        #"openai:gpt-3.5-turbo",      # OpenAI model
+        "gemini:gemini-pro",         # Gemini model
+        # Add more models as needed
     ]
 
     evaluator = COPAEvaluator(models, debug=True)  # Set debug=True to enable debug output
