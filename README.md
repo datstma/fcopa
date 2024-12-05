@@ -7,10 +7,13 @@ I'm developing a Financial COPA dataset aimed at comparing the performance and s
 
 ## Features
 
-- Supports evaluation of multiple models from different providers (currently Ollama and OpenAI)
+- Supports evaluation of multiple models from different providers 
+  - currently supporting:
+    - Ollama, OpenAI and Google Gemini
 - Calculates accuracy and timing metrics for each model
 - Generates a performance comparison graph
 - Saves detailed results to a CSV file for further analysis
+- Current FCOPA validation set is 4.0 (val4.jsonl)
 
 Example comparison of llama3.2 and openai-3.5-turbo models performance:
 
@@ -30,17 +33,41 @@ Example comparison of llama3.2 and openai-3.5-turbo models performance:
 
 1. Clone this repository
 2. Install the required packages: `pip install -r requirements.txt`
-3. Create a `.env` file in the project root and add your OpenAI API key:
+3. If you want to use public LLM's and not only your local Ollama, create a `.env` file in the project root and add your OpenAI API key:
 ```, text
 OPENAI_API_KEY=your_api_key_here
+GOOGLE_API_KEY=your_api_key_here
 ```
+Don't worry, the program will check the keys needed as needed and notify you if you haven't entered them properly.
+
 4. Ensure you have Ollama running locally if you plan to use Ollama models
 
 ## Usage
 
-1. Prepare your COPA dataset in JSONL format
-2. Modify the `models` list in `main.py` to include the models you want to evaluate
-3. Run the script: `python main.py`
+Currently, it's a bit primitive, I'll a bit more user friendliness as the project progresses
+1. In the main.py, choose which models you'd like to benchmark.
+```
+models = [
+        #"ollama:llama3.2",             # Ollama model
+        #"openai:gpt-3.5-turbo",      # OpenAI model
+        "gemini:gemini-pro",         # Gemini model
+        # Add more models as needed
+    ]
+```
+The above would only use Googles gemini-pro:lastest model.
+
+Or
+```
+models = [
+"ollama:llama3.2",             # Ollama model
+#"openai:gpt-3.5-turbo",      # OpenAI model
+"gemini:gemini-pro",         # Gemini model
+# Add more models as needed
+]
+```
+Would use both llama:3.2:lastest and Googles gemini-pro:lastest model, and compare them in the results and in the graphs.
+
+2. Run the script: `python main.py`
 
 ## Output
 
@@ -57,10 +84,16 @@ OPENAI_API_KEY=your_api_key_here
 
 - Further develop the validation dataset
   - Focus on financial complexity reasoning only? Decide if the dataset should be pruned to remove superfluous questions not serving the direct COPA.
-- Get third party affiration 
+- User interface
+  - Add proper command line support
+  - WebUI?
+  - Hosted Webhook?
+- Get third party affirmation 
   - Academic verification needed for the FCOPA dataset. The current dataset is indicative, not affirmed.
 - Add localization
   - Today the FCOPA is based on english datasets. We know for a fact that introducing localization will break the scoring due to lingual training biases
+  - There's validation and training sets in the repository from the COPA dataset and from Overlim's COPA localization project for reference.
+- The usual housekeeping needed, but for now, I'll leave the initial never used fcopa valdation sets in the repo should someone want to study how one can build a validation set. 
 
 ## Contributing
 
