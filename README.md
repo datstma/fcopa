@@ -3,7 +3,7 @@
 ## Project Overview
 
 This project implements a COPA (Choice of Plausible Alternatives) Evaluator, designed to assess and compare the performance of various large language models (LLM's) on Finacial COPA tasks. The COPA task involves selecting the most plausible cause or effect for a given premise from two alternatives.
-I've developed a Financial COPA dataset aimed at comparing the performance and scoring of different LLM's with the purpose of being able to evaluate how they could support a business in reasoning support AI agents for financial scenarios. 
+I'm developing a Financial COPA dataset aimed at comparing the performance and scoring of different LLM's with the purpose of being able to evaluate how they could support a business in reasoning support AI agents for financial scenarios. 
 
 ## Features
 
@@ -11,6 +11,10 @@ I've developed a Financial COPA dataset aimed at comparing the performance and s
 - Calculates accuracy and timing metrics for each model
 - Generates a performance comparison graph
 - Saves detailed results to a CSV file for further analysis
+
+Example comparison of llama3.2 and openai-3.5-turbo models performance:
+
+![Model Performance Graph](model_performance.png)
 
 ## Requirements
 
@@ -72,10 +76,10 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 stefan@mansby.se
 
 ## Credits and inspiration
-- The Olverlim project (a wonderful project aimed at benchmarking LLM's in Scandinavian languages) https://huggingface.co/datasets/KBLab/overlim
+- The Overlim project (a wonderful project aimed at benchmarking LLM's in Scandinavian languages) https://huggingface.co/datasets/KBLab/overlim
 - Dr. Andrew S. Gordon (part of research team who developed COPA) https://asgordon.github.io/
 
-## Why do you need a Finacial COPA test, commercial benefits?
+## Why do you need a Financial COPA test, commercial benefits?
 
 Knowing which large language model (LLM) scores the best on financial COPA (Choice of Plausible Alternatives) tests can be highly beneficial in several business scenarios where advanced financial reasoning and comprehension are critical. Here are some scenarios where this knowledge would be valuable:
 
