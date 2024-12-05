@@ -184,7 +184,7 @@ def load_jsonl(file_path: str) -> List[Dict]:
 # Example usage
 if __name__ == "__main__":
     # Load COPA dataset from JSONL
-    copa_data = load_jsonl('FCOPA_ENG/val3.jsonl')  # Using validation set
+    copa_data = load_jsonl('FCOPA_ENG/val4.jsonl')  # Using validation set
 
     # Initialize evaluator with models to test
     # Models can be specified in format "provider:model_name"
