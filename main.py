@@ -1,14 +1,14 @@
 import json
-import requests
 import time
 from typing import List, Dict, Union, Literal
 from tqdm import tqdm
-from openai import OpenAI
 import os
 from dotenv import load_dotenv
 import csv
 from datetime import datetime
 import matplotlib.pyplot as plt
+from clients.ollama_client import OllamaClient
+from clients.openai_client import OpenAIClient
 
 # Load environment variables from .env file
 load_dotenv()
@@ -36,13 +36,14 @@ class COPAEvaluator:
         }
         self.debug = debug
 
-        # Initialize OpenAI client if needed
+        # Initialize API clients
+        self.ollama_client = OllamaClient()
         self.openai_client = None
         if any(model.provider == "openai" for model in self.models):
             api_key = os.getenv("OPENAI_API_KEY")
             if not api_key:
                 raise ValueError("OpenAI API key not found in .env file")
-            self.openai_client = OpenAI(api_key=api_key)
+            self.openai_client = OpenAIClient(api_key=api_key)
 
         # Initialize CSV file
         self.csv_filename = f"copa_evaluation_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
@@ -51,6 +52,7 @@ class COPAEvaluator:
             writer.writerow(['Model', 'Question Number', 'Correct Answer', 'Predicted Answer'])
 
     def write_to_csv(self, model: str, question_number: int, correct_answer: int, predicted_answer: int):
+        """Write evaluation results to CSV file."""
         with open(self.csv_filename, 'a', newline='') as csvfile:
             writer = csv.writer(csvfile)
             writer.writerow([model, question_number, correct_answer, predicted_answer])
@@ -70,52 +72,14 @@ class COPAEvaluator:
 
         return prompt
 
-    def query_ollama(self, model_name: str, prompt: str) -> tuple:
-        """Query Ollama API and return response and time taken."""
-        start_time = time.time()
-
-        response = requests.post('http://localhost:11434/api/generate',
-                                 json={
-                                     "model": model_name,
-                                     "prompt": prompt,
-                                     "stream": False
-                                 })
-
-        elapsed_time = time.time() - start_time
-
-        if response.status_code == 200:
-            return response.json()["response"].strip(), elapsed_time
-        else:
-            return f"Error: {response.status_code}", elapsed_time
-
-    def query_openai(self, model_name: str, prompt: str) -> tuple:
-        """Query OpenAI API and return response and time taken."""
-        start_time = time.time()
-
-        try:
-            response = self.openai_client.chat.completions.create(
-                model=model_name,
-                messages=[
-                    {"role": "system", "content": "You are a helpful assistant that answers only with the number 0 or 1 based on the given choices."},
-                    {"role": "user", "content": prompt}
-                ],
-                temperature=0,  # Use deterministic outputs
-                max_tokens=1    # We only need a single token response
-            )
-
-            elapsed_time = time.time() - start_time
-            return response.choices[0].message.content.strip(), elapsed_time
-
-        except Exception as e:
-            elapsed_time = time.time() - start_time
-            return f"Error: {str(e)}", elapsed_time
-
     def query_model(self, model: ModelConfig, prompt: str) -> tuple:
         """Query appropriate API based on model provider."""
         if model.provider == "ollama":
-            return self.query_ollama(model.name, prompt)
+            return self.ollama_client.query(model.name, prompt)
         elif model.provider == "openai":
-            return self.query_openai(model.name, prompt)
+            if not self.openai_client:
+                raise ValueError("OpenAI client not initialized")
+            return self.openai_client.query(model.name, prompt)
         else:
             raise ValueError(f"Unsupported model provider: {model.provider}")
 
@@ -225,9 +189,9 @@ if __name__ == "__main__":
     # Initialize evaluator with models to test
     # Models can be specified in format "provider:model_name"
     models = [
-        "ollama:llama3.2:latest",           # Ollama model
-        "openai:gpt-3.5-turbo",           # OpenAI model
-        #"openai:gpt-4",                   # OpenAI model
+        "ollama:llama3.2",           # Ollama model
+        #"openai:gpt-3.5-turbo",   # OpenAI model
+        #"openai:gpt-4",           # OpenAI model
         #ModelConfig("gpt-4", "openai"),   # Alternative way using ModelConfig
     ]
 
